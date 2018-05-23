@@ -11,7 +11,7 @@ fetch("https://script.googleusercontent.com/macros/echo?user_content_key=U4gSs35
 
 		let number = parseInt(Math.random()*data.length);
 
-		printName(data[number]);
+		printName(data[number]+" you win!");
 	})
 })
 
